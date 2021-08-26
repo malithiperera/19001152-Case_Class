@@ -27,18 +27,18 @@ def main(args: Array[String]): Unit = {
   println("Point P2="+p2);
   println("Point P3="+p3);
 
-  //addition
+  // Question 1 addition of two points 
   val x=p1+p2
   println( "Adding of point p1 and p2 ="+ x)
 
-//move x and y coordinates of P1 with 1
+// Quesyion 2 move x and y coordinates of P1 with 1
   println("after move x coordinate by 1 and y coordinate by 1 in P1 = "+ p1.move(1,1))
 
-  //distance of two points
+  // Question 3 distance of two points
 
 println("Distance of P3 and P2="+ p3.distance(p2))
 
-//after switching the  x and y coordinates
+// Question 4 after switching the  x and y coordinates
   println("After switching x and y coordinates of P1" + p1.invert())
 }
 
